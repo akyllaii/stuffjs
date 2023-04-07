@@ -20,5 +20,30 @@ body {
   padding: 0 20px;
 }
 
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.btn {
+  background: #6C3EB8;
+  border-radius: 6px;
+  border: none;
+  padding: 9px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
 @import "header";
 @import "begin";
+@import "trending";
+@import "worth";
+@import "new";
+@import "footer";
